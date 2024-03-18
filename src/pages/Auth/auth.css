@@ -1,0 +1,79 @@
+
+.bordure{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    border: none;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.form:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.seConnecter{
+    text-align: center;
+    color:#8b1812;
+    text-shadow: 2px 2px #333;
+     font-family: "Roboto", sans-serif;
+     font-size: 35px;
+     font-weight: bold;
+
+}
+.seConnecter:hover{
+    color: #FFFFFF;
+}
+
+.group {
+    position: relative;
+    height: auto; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+input {
+    width: 200px;
+    outline: none;
+    padding: 10px 25px; 
+    border-radius: 10px;
+    border: 2px solid #333;
+    background: transparent;
+    transition: 0.1s ease; 
+    height: 10px;
+}
+
+.labelline {
+    font-size: 1.3em;
+    color: #8b1812;
+    margin-bottom: 5px; /* Ajout de marge en bas pour l'espacement */
+}
+
+input:focus,
+input:valid{
+    color: #8b1812;
+    border: 1px solid #8b1812;
+}
+.button{
+    color: #ffffff;
+    background-color: #8b1812;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 250px;
+    margin: 0 2px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.button:hover {
+    color: #8b1812;
+    background-color: #ffffff;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+

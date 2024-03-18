@@ -1,0 +1,80 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8b1812;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+  }
+  .menu li {
+    margin: 0 80px;
+  }
+  .menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #8b1812;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 32px;
+    width: 90px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .menu li a:hover,
+  .menu li a:focus {
+    background-color: #ffffff;
+    color: #8b1812;
+  }
+  .menu li a:active {
+    background-color: #8b1812;
+    color: #ffffff;
+  }
+  .layout {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    color: #8b1812;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-right: 20px;
+    text-decoration: none;
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .layout:hover {
+    background-color: #8b1812;
+    color: #ffffff;
+  }
+  .logo {
+    width: 150px;
+    height: 50px;
+  }
+  .telephone-icon,
+  .telephone-number {
+    color: #ffffff;
+    margin-right: 5px;
+    font-size: 20px;
+  }
+  .content {
+    padding-top: 90px;
+  }
+  

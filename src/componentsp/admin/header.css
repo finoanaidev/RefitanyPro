@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.SideMenu {
+    background-color: #8b1812; /* Couleur de fond de la barre de navigation */
+    padding: 20px; /* Espace intérieur de la barre de navigation */
+}
+
+.SideMenu ul {
+    list-style-type: none; /* Supprime les puces des listes */
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  
+}
+
+.SideMenu ul li {
+    display: inline; /* Afficher les éléments de la liste en ligne */
+    margin-right: 20px; /* Marge entre les éléments de la liste */
+
+}
+
+.SideMenu ul li a {
+    text-decoration: none; /* Supprime la décoration du lien */
+    color: #ffffff; /* Couleur du texte des liens */
+    padding: 10px 20px; /* Espace intérieur des liens */
+    border-radius: 5px; /* Bord arrondi des liens */
+    transition: background-color 0.3s; /* Transition de couleur de fond */
+    font-family: 'roboto';
+}
+
+.SideMenu ul li a:hover {
+    background-color: #ffffff; /* Couleur de fond au survol */
+    color: #8b1812;
+}
